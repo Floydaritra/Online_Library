@@ -1,0 +1,31 @@
+
+<html>
+<title>Adminspace</title>
+<body background="back.jpg" >
+
+<center><br><br>
+<form action="search.jsp" method=post>
+	<select name=type>
+	<option>Search by...</option>
+	<option value=name>Search by Name of Book</option>
+	<option value=aut>Search by Author</option>
+	<option value=pub>Search by Publisher</option>
+	</select>
+	<input type=text placeholder="Search here..." name=key style="width: 300px" required>
+	<input type=submit name=search>
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+	<a href="admin.html"><img src="book.png" style="width:100px;height:100px;"></img></a>
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="logout.jsp">LOG OUT</a>
+	</form>
+	<hr>
+<br><br>
+<font face="calibri">
+<h2>
+:::::::::::::::ADMIN SPACE:::::::::::::::
+</h2>
+<br><br>
+1. <a href="requests.jsp">REQUESTS FROM USERS</a><br><br>
+2. <a href="upload.html">UPLOAD NEW BOOKS</a>
+</form>
+</body>
+</html>
